@@ -1,0 +1,28 @@
+<div class="page">
+  <div class="header">
+    <div class="title">
+      <img
+        src="https://freesvg.org/img/fficient%20energy%20-%20ficiencia%20energtica.png"
+      />
+      <h2>Contract Manager Features</h2>
+    </div>
+    <button type="button">Book Demo</button>
+  </div>
+  <div class="content">
+    <div class="product-wrapper">
+      <div class="product" *ngFor="let product of products">
+        <div class="product-name">{{ product.name }}</div>
+        <img [src]="product.image" class="product-image" />
+        <div class="product-price">R{{ product.price }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li>Contact us</li>
+      <li>Privacy policy</li>
+      <li>Terms of service</li>
+    </ul>
+  </div>
+</div>
