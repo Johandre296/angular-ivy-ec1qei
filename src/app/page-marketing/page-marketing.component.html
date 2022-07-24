@@ -11,18 +11,22 @@
   <div class="content">
     <div class="product-wrapper">
       <div class="product" *ngFor="let product of products">
-        <div class="product-name">{{ product.name }}</div>
+        <div>
+          <div class="product-name">{{ product.name }}</div>
+          <div class="product-price">Price: R{{ product.price }}</div>
+        </div>
         <img [src]="product.image" class="product-image" />
-        <div class="product-price">R{{ product.price }}</div>
       </div>
     </div>
   </div>
 
   <div class="footer">
-    <ul>
-      <li>Contact us</li>
-      <li>Privacy policy</li>
-      <li>Terms of service</li>
-    </ul>
+    <table>
+      <tr>
+        <td>Contact us |</td>
+        <td>Privacy policy |</td>
+        <td>Terms of service |</td>
+      </tr>
+    </table>
   </div>
 </div>

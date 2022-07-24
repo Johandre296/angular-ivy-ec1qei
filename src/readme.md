@@ -9,11 +9,11 @@ You only need to work on the `page-marketing` component.
 
 The following tasks/bugs have been assigned to you:
 
-- Complete the `getProductsAndPrices` function so that the UI shows the products with their prices.
+- Complete the `getProductsAndPrices` function so that the UI shows the products with their prices. -Done
 
 - The product names are wrapping if the name is too long. Make them show an ellipsis instead on a single line.
 
-- List the footer items in a row instead of a column
+- List the footer items in a row instead of a column -Done
 
 - Update the html/css of the products to look better (in whatever way you think would look good)
 
